@@ -42,3 +42,18 @@ This repository contains real-world PowerShell scripts designed to automate comm
 2. Connect to Azure:
    ```powershell
    ./connect_azure.ps1
+3. Create users:
+powershell
+./create_user.ps1
+4. Assign licenses:
+powershell
+./assign_license.ps1
+5. Disable user:
+powershell
+./disable_user.ps1
+
+🧾 Sample sample_users.csv
+DisplayName,UserPrincipalName,MailNickname,Password,GivenName,Surname
+John Doe,john.doe@yourtenant.com,johndoe,Welcome@123,John,Doe
+Jane Smith,jane.smith@yourtenant.com,janesmith,Welcome@123,Jane,Smith
+ 
